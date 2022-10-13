@@ -19,7 +19,7 @@
 
 
 ## 通过子域部署DocumentServer
-URL 示例：https://onlyoffice.domain.com
+URL 示例：https://onlyoffice.example.com
 
 - 子域
 - 子域的DNS解析记录
