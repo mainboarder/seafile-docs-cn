@@ -4,8 +4,8 @@
 (同时需要对你的邮箱进行设置).
 
     EMAIL_USE_TLS = False
-    EMAIL_HOST = 'smtp.domain.com'        # smpt 服务器
-    EMAIL_HOST_USER = 'username@domain.com'    # 用户名和域名
+    EMAIL_HOST = 'smtp.example.com'        # smpt 服务器
+    EMAIL_HOST_USER = 'username@example.com'    # 用户名和域名
     EMAIL_HOST_PASSWORD = 'password'    # 密码
     EMAIL_PORT = '25'
     DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
@@ -25,7 +25,7 @@ QQ 邮箱示例：
 
     EMAIL_USE_SSL = True
     EMAIL_HOST = 'smtp.qq.com'
-    EMAIL_HOST_USER = 'username@domain.com'
+    EMAIL_HOST_USER = 'username@example.com'
     EMAIL_HOST_PASSWORD = 'Auth_Code'
     EMAIL_PORT = '465'
     DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
